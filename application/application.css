@@ -1,0 +1,316 @@
+.text-field {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 15.0;
+    -fx-border-radius: 15.0;
+    -fx-border-color: #b5122d;
+    -fx-border-width: 2.0px; 
+    -fx-padding: 10.0px;
+    -fx-font-size: 14.0px;
+    -fx-font-family: "Arial";
+   
+}
+
+
+.text-field:focused {
+    -fx-border-color: #a01027; 
+    -fx-background-color: #f9f9f9; 
+   
+}
+
+
+.label {
+	-fx-font-size: 15.0px; 
+    -fx-font-weight: bold; 
+    -fx-text-fill: #FFFFFF; 
+  
+    -fx-font-family: "Arial"; 
+   
+    -fx-padding: 12.0 24.0 12.0 24.0; 
+}
+.button {
+    -fx-background-color: #b5122d;
+    -fx-text-fill: white;
+    -fx-font-size: 14.0px;
+    -fx-font-family: "Arial";
+    -fx-max-height: 30.0px;
+    -fx-max-width: 250.0px;
+    -fx-border-color: white;
+    -fx-border-radius: 15.0px;
+    -fx-border-style: solid;
+    -fx-background-radius: 15.0px;
+    -fx-padding: 8.0px 20.0px; 
+   
+}
+
+.button:hover {
+    -fx-background-color: #3a5ae0; 
+}
+
+.button:pressed {
+    -fx-background-color: #1a2b8b; 
+}
+
+
+.dialog-pane {
+    -fx-border-color: #90EE90; 
+    -fx-border-width: 2.0; 
+    -fx-padding: 10.0; 
+    -fx-font-size: 14.0px; 
+    -fx-font-family: "Arial";
+}
+
+.text-area {
+    -fx-font-size: 14.0px;
+    -fx-font-family: "Arial"; 
+    -fx-padding: 10.0px; 
+    -fx-background-radius: 10.0;
+    -fx-border-radius: 10.0; 
+    -fx-border-color: #b5122d; 
+    -fx-border-width: 2.0;
+    -fx-background-color: #FFFFFF; 
+      -fx-background-radius: 15.0; 
+}
+
+.tab-pane {
+    -fx-padding: 20.0px;
+}
+
+.border-pane {
+    -fx-padding: 20.0px;
+}
+
+VBox {
+    -fx-padding: 10.0px;
+}
+
+
+.slogan {
+    -fx-font-size: 24.0px; 
+    -fx-font-weight: bold; 
+    -fx-text-fill: #FFFFFF; 
+}
+
+.tape {
+    -fx-font-size: 16.0px; 
+    -fx-text-fill: #FFFFFF;
+}.dialog-pane {
+    -fx-background-color: #3155f5; 
+    -fx-border-color: #ffffff; 
+    -fx-border-width: 2.0px; 
+    -fx-border-radius: 10.0px; 
+}
+
+.text-input {
+    -fx-text-fill: black;
+    -fx-font-size: 14.0px; 
+    -fx-padding: 5.0px; 
+
+}
+.title-label {
+    -fx-font-size: 24.0px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #b5122d;
+    -fx-background-color: white;
+    -fx-background-radius: 20.0;
+    -fx-border-color: white;
+    -fx-border-width: 2.0;
+    -fx-border-radius: 20.0;
+    -fx-padding: 10.0 20.0 10.0 20.0;
+}
+.image-view {
+    -fx-effect: dropshadow(gaussian, rgba(0.0, 0.0, 0.0, 0.7), 10.0, 0.5, 0.0, 0.0);
+    -fx-padding: 10.0;
+}
+
+
+.winner-label {
+ -fx-font-size: 14.0px;
+    -fx-font-family: "Arial"; 
+    -fx-padding: 10.0px; 
+    -fx-background-radius: 10.0;
+    -fx-border-radius: 10.0; 
+    -fx-border-color: #b5122d; 
+    -fx-border-width: 2.0;
+    -fx-background-color: #FFFFFF; 
+      -fx-background-radius: 15.0; 
+}
+
+
+
+
+.dialog .button {
+    -fx-background-color: #b5122d; 
+    -fx-text-fill: white; 
+    -fx-font-size: 14.0px; 
+    -fx-font-family: "Arial"; 
+    -fx-max-height: 30.0; 
+    -fx-max-width: 250.0; 
+    -fx-border-color:  white;
+    -fx-border-radius: 15.0; 
+    -fx-border-style: solid; 
+    -fx-background-radius: 15.0; 
+}
+
+.player-one-progress {
+    -fx-font-size: 20.0px; 
+    -fx-font-weight: bold;
+    -fx-text-fill: white; 
+    -fx-background-color: #0082fc;
+    -fx-padding: 15.0px;
+    -fx-border-radius: 10.0px; 
+    -fx-background-radius: 10.0px;
+    -fx-border-color: white; 
+    -fx-border-width: 3.0px;
+    -fx-font-family: "Arial", sans-serif; 
+}
+
+.player-one-label {
+    -fx-font-size: 20.0px; 
+    -fx-font-weight: bold; 
+    -fx-text-fill: white;
+    -fx-background-color: #ebe300;
+    -fx-padding: 15.0px; 
+    -fx-background-radius: 10.0px;
+    -fx-border-radius: 10.0px;
+    -fx-border-color: white; 
+    -fx-border-width: 3.0px;
+    -fx-font-family: "Arial", sans-serif; 
+}
+
+.player-tow-label {
+    -fx-font-size: 20.0px; 
+    -fx-font-weight: bold; 
+    -fx-text-fill: white;
+    -fx-background-color: #00eb0c;
+    -fx-padding: 15.0px; 
+    -fx-background-radius: 10.0px;
+    -fx-border-radius: 10.0px;
+    -fx-border-color: white; 
+    -fx-border-width: 3.0px;
+    -fx-font-family: "Arial", sans-serif; 
+}
+
+.couins{
+	-fx-border-color: white; 
+	-fx-background-color: #2561d9; 
+	-fx-padding: 5.0;
+}
+.coui{
+	-fx-border-color: white; 
+	-fx-background-color: #c40e57; 
+	-fx-padding: 5.0;
+}.action-label {
+    -fx-font-size: 16.0px;
+    -fx-text-fill: #b5122d; 
+    -fx-font-weight: bold;
+    -fx-background-color: white; 
+    -fx-padding: 10.0px 20.0px;
+    -fx-background-radius: 20.0px; 
+   
+    -fx-border-width: 2.0px;
+    -fx-alignment: center;
+}
+.coin-button {
+    -fx-font-size: 20.0px;
+    -fx-pref-width: 100.0px;
+    -fx-pref-height: 100.0px;
+    -fx-min-width: 80.0px; 
+    -fx-min-height: 80.0px;
+    -fx-text-fill: white; 
+    -fx-background-color: #b5122d; 
+    -fx-font-weight: bold;
+    -fx-alignment: center; 
+    -fx-border-radius: 10.0px; 
+    -fx-border-color: white;
+    -fx-border-width: 2.0px; 
+}
+
+.switch-buttons-box {
+    -fx-padding: 20.0px;
+    -fx-background-color: rgba(52.0, 83.0, 224.0, 0.5); 
+    -fx-background-radius: 20.0px;
+    -fx-border-radius: 20.0px;
+    -fx-effect: dropshadow(gaussian, rgba(0.0, 0.0, 0.0, 0.3), 10.0, 0.5, 0.0, 0.0); 
+    -fx-alignment: center;
+}
+/* General ScrollPane Styling */
+.scroll-pane {
+    -fx-background: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: #f4f4f4; /* Light gray background for content */
+}
+
+.scroll-bar {
+    -fx-background-color: transparent; /* Transparent background for scrollbars */
+}
+
+/* Vertical Scrollbar */
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #c40e57; /* Pinkish color */
+    -fx-background-radius: 5.0px;
+}
+
+.scroll-bar:vertical .track {
+    -fx-background-color: #f0f0f0;
+}
+
+.scroll-bar:vertical .increment-arrow, .scroll-bar:vertical .decrement-arrow {
+    -fx-background-color: #d991ae; /* Lighter pink for arrows */
+}
+
+/* Horizontal Scrollbar */
+.scroll-bar:horizontal .thumb {
+    -fx-background-color: #c40e20; /* Darker pink for horizontal */
+    -fx-background-radius: 5.0px;
+}
+
+.scroll-bar:horizontal .track {
+    -fx-background-color: #f0f0f0;
+}
+
+.scroll-bar:horizontal .increment-arrow, .scroll-bar:horizontal .decrement-arrow {
+    -fx-background-color: #d991ae; /* Lighter pink for arrows */
+}
+
+/* Styling for Expected Result Label */
+.scroll-pane .content > .label {
+    -fx-font-size: 14.0px;
+    -fx-text-fill: #333333;
+    -fx-padding: 10.0px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5.0px;
+}/* TextArea Styling */
+.text-area-style {
+    -fx-font-size: 14px; /* Larger font size for clarity */
+    -fx-padding: 10px; /* Padding inside the text area */
+    -fx-border-color: #c40e57; /* Highlight border color */
+    -fx-border-radius: 5px; /* Rounded corners for modern look */
+    -fx-background-radius: 5px; /* Matching rounded corners for the background */
+    -fx-background-color: #ffffff; /* White background for contrast */
+    -fx-text-fill: #000000; /* Black text for visibility */
+    -fx-control-inner-background: #ffffff; /* Inner background matches the overall background */
+}
+
+/* ScrollPane Styling */
+.scroll-pane-style {
+    -fx-background-color: transparent; /* Transparent background for seamless design */
+    -fx-border-color: transparent; /* Remove unnecessary borders */
+}
+
+/* Optional: Hover Effect for TextArea */
+.text-area-style:hover {
+    -fx-border-color: #d991ae; /* Subtle border highlight on hover */
+}
+
+/* Optional: Focus Effect for TextArea */
+.text-area-style:focused {
+    -fx-border-color: #c40e57; /* Stronger border highlight on focus */
+    -fx-background-color: #ffffff; /* Ensure background stays white */
+}
+
+
+

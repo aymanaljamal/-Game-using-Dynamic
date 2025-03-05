@@ -1,0 +1,146 @@
+.text-field {
+    -fx-background-color: #FFFFF;  /* Sets the background color for the text field. */
+    -fx-background-radius: 15.0; /*  Rounds the corners of the text field. */
+    -fx-border-radius: 15.0;/*  Rounds the corners of the border. */
+    -fx-border-color: #b5122d;  /*  Sets the color of the border to a red shade. */
+    -fx-border-width: 2px;   /* Defines the thickness of the border. */
+    -fx-padding: 10.0px;  /* Adds inner spacing inside the text field. */
+    -fx-font-size: 14.0px; /*Sets the font size for the text inside the field. */
+    -fx-font-family: "Arial";   /* Specifies the font family for the text. */
+   
+}
+
+
+.text-field:focused {
+    -fx-border-color: #a01027;  /* Changes the border color of the text field to a darker red when it is focused. */
+    -fx-background-color: #f9f9f9;  /* Changes the background color of the text field to a light gray when it is focused. */
+   
+}
+
+.label {
+	-fx-font-size: 15.0px; /* Sets the font size of the label text to 15px. */
+    -fx-font-weight: bold; /* Makes the label text bold. */
+    -fx-text-fill: #FFFFFF; /* Sets the text color of the label to white. */
+    -fx-font-family: "Arial"; /* Specifies the font family for the label text as Arial. */
+    -fx-padding: 12.0 24.0 12.0 24.0; /* Adds padding around the label text: 12px top, 24px right, 12px bottom, and 24px left. */
+}
+.button {
+    -fx-background-color: #b5122d; /* Sets the background color of the button to a dark red. */
+    -fx-text-fill: white; /* Sets the text color of the button to white. */
+    -fx-font-size: 14.0px; /* Specifies the font size of the button text to 14px. */
+    -fx-font-family: "Arial"; /* Defines the font family of the button text as Arial. */
+    -fx-max-height: 30.0px; /* Limits the maximum height of the button to 30px. */
+    -fx-max-width: 250.0px; /* Limits the maximum width of the button to 250px. */
+    -fx-border-color: white; /* Sets the border color of the button to white. */
+    -fx-border-radius: 15.0px; /* Rounds the corners of the button's border with a radius of 15px. */
+    -fx-border-style: solid; /* Specifies the border style as solid. */
+    -fx-background-radius: 15.0px; /* Rounds the background corners of the button with a radius of 15px. */
+    -fx-padding: 8px 20px; /* Adds padding inside the button: 8px top/bottom, 20px left/right. */
+}
+
+.button:hover {
+    -fx-background-color: #3a5ae0; /* Changes the background color of the button to blue when hovered. */
+}
+
+.button:pressed {
+    -fx-background-color: #1a2b8b; /* Changes the background color of the button to a darker blue when pressed. */
+}
+
+.dialog-pane {
+    -fx-border-color: #90EE90; /* Sets the border color of the dialog pane to light green. */
+    -fx-border-width: 2.0; /* Defines the border width of the dialog pane to 2px. */
+    -fx-padding: 10.0; /* Adds 10px padding inside the dialog pane. */
+    -fx-font-size: 14.0px; /* Sets the font size of text within the dialog pane to 14px. */
+    -fx-font-family: "Arial"; /* Specifies the font family for text inside the dialog pane as Arial. */
+}
+
+.text-area {
+    -fx-font-size: 14.0px; /* Sets the font size for the text inside the text area. */
+    -fx-font-family: "Arial"; /* Specifies the font family for the text area as Arial. */
+    -fx-padding: 10.0px; /* Adds padding inside the text area. */
+    -fx-background-radius: 10.0; /* Rounds the corners of the text area's background. */
+    -fx-border-radius: 10.0; /* Rounds the corners of the text area's border. */
+    -fx-border-color: #b5122d; /* Sets the border color of the text area to red. */
+    -fx-border-width: 2.0; /* Specifies the thickness of the text area's border. */
+    -fx-background-color: #FFFFFF; /* Sets the background color of the text area to white. */
+    -fx-background-radius: 15.0; /* Adds additional rounding to the text area's background. */
+}
+
+.tab-pane {
+    -fx-padding: 20.0px; /* Adds padding to the tab pane for spacing. */
+}
+
+.border-pane {
+    -fx-padding: 20.0px; /* Adds padding to the border pane for spacing. */
+}
+
+VBox {
+    -fx-padding: 10.0px; /* Adds padding to the VBox layout. */
+}
+
+.slogan {
+    -fx-font-size: 24.0px; /* Sets the font size for the slogan text. */
+    -fx-font-weight: bold; /* Makes the slogan text bold. */
+    -fx-text-fill: #FFFFFF; /* Sets the text color of the slogan to white. */
+}
+
+.tape {
+    -fx-font-size: 16.0px; /* Sets the font size for the text in the tape label. */
+    -fx-text-fill: #FFFFFF; /* Sets the text color of the tape label to white. */
+}
+
+.dialog-pane {
+    -fx-background-color: #3155f5; /* Sets the background color of the dialog pane to blue. */
+    -fx-border-color: #ffffff; /* Sets the border color of the dialog pane to white. */
+    -fx-border-width: 2px; /* Specifies the thickness of the dialog pane's border. */
+    -fx-border-radius: 10px; /* Rounds the corners of the dialog pane's border. */
+}
+
+.text-input {
+    -fx-text-fill: black; /* Sets the text color inside the text input to black. */
+    -fx-font-size: 14px; /* Specifies the font size for the text inside the input. */
+    -fx-padding: 5px; /* Adds padding inside the text input field. */
+}
+
+.title-label {
+    -fx-font-size: 24px; /* Sets the font size for the title label text. */
+    -fx-font-weight: bold; /* Makes the title label text bold. */
+    -fx-text-fill: #b5122d; /* Sets the text color of the title label to red. */
+    -fx-background-color: white; /* Sets the background color of the title label to white. */
+    -fx-background-radius: 20; /* Rounds the corners of the title label's background. */
+    -fx-border-color: white; /* Sets the border color of the title label to white. */
+    -fx-border-width: 2; /* Specifies the thickness of the title label's border. */
+    -fx-border-radius: 20; /* Rounds the corners of the title label's border. */
+    -fx-padding: 10 20 10 20; /* Adds padding around the title label text: 10px top/bottom and 20px left/right. */
+}
+
+.image-view {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.7), 10, 0.5, 0, 0); /* Adds a shadow effect to the image view. */
+    -fx-padding: 10; /* Adds padding around the image view. */
+}
+
+.winner-label {
+    -fx-font-size: 14.0px; /* Sets the font size for the winner label text. */
+    -fx-font-family: "Arial"; /* Specifies the font family for the winner label text as Arial. */
+    -fx-padding: 10.0px; /* Adds padding inside the winner label. */
+    -fx-background-radius: 10.0; /* Rounds the corners of the winner label's background. */
+    -fx-border-radius: 10.0; /* Rounds the corners of the winner label's border. */
+    -fx-border-color: #b5122d; /* Sets the border color of the winner label to red. */
+    -fx-border-width: 2.0; /* Specifies the thickness of the winner label's border. */
+    -fx-background-color: #FFFFFF; /* Sets the background color of the winner label to white. */
+    -fx-background-radius: 15.0; /* Adds additional rounding to the winner label's background. */
+}
+
+.dialog .button {
+    -fx-background-color: #b5122d; /* Sets the background color of the button in a dialog to red. */
+    -fx-text-fill: white; /* Sets the text color of the dialog button to white. */
+    -fx-font-size: 14.0px; /* Specifies the font size for the button text. */
+    -fx-font-family: "Arial"; /* Defines the font family for the button text as Arial. */
+    -fx-max-height: 30.0px; /* Limits the maximum height of the button. */
+    -fx-max-width: 250.0px; /* Limits the maximum width of the button. */
+    -fx-border-color: white; /* Sets the border color of the button to white. */
+    -fx-border-radius: 15.0; /* Rounds the corners of the button's border. */
+    -fx-border-style: solid; /* Defines the border style as solid. */
+    -fx-background-radius: 15.0; /* Rounds the corners of the button's background. */
+}
+
