@@ -47,9 +47,11 @@ The program should present:
 Implement the program effectively using Dynamic Programming and ensure correctness in results!
 
 ### Example UI Screenshots
-!([images/dp_table.png](https://github.com/aymanaljamal/-Game-using-Dynamic/blob/main/game.1.png?raw=true))
-!([images/optimal_moves.png](https://github.com/aymanaljamal/-Game-using-Dynamic/blob/main/game2.png?raw=true))
-!([images/optimal_moves.png](https://github.com/aymanaljamal/-Game-using-Dynamic/blob/main/game3.png?raw=true))
-!([images/optimal_moves.png](https://github.com/aymanaljamal/-Game-using-Dynamic/blob/main/game4.png?raw=true))
-!([images/optimal_moves.png](https://github.com/aymanaljamal/-Game-using-Dynamic/blob/main/game5.png?raw=true))
+![DP Table Example](https://github.com/aymanaljamal/-Game-using-Dynamic/blob/main/game.1.png?raw=true)
+![Optimal Moves Example 1](https://github.com/aymanaljamal/-Game-using-Dynamic/blob/main/game2.png?raw=true)
+![Optimal Moves Example 2](https://github.com/aymanaljamal/-Game-using-Dynamic/blob/main/game3.png?raw=true)
+![Optimal Moves Example 3](https://github.com/aymanaljamal/-Game-using-Dynamic/blob/main/game4.png?raw=true)
+![Optimal Moves Example 4](https://github.com/aymanaljamal/-Game-using-Dynamic/blob/main/game5.png?raw=true)
 
+## Good Luck!
+Implement the program effectively using Dynamic Programming and ensure correctness in results!
