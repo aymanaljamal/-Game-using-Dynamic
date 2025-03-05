@@ -45,3 +45,11 @@ The program should present:
 
 ## Good Luck!
 Implement the program effectively using Dynamic Programming and ensure correctness in results!
+
+### Example UI Screenshots
+!([images/dp_table.png](https://github.com/aymanaljamal/-Game-using-Dynamic/blob/main/game.1.png?raw=true))
+!([images/optimal_moves.png](https://github.com/aymanaljamal/-Game-using-Dynamic/blob/main/game2.png?raw=true))
+!([images/optimal_moves.png](https://github.com/aymanaljamal/-Game-using-Dynamic/blob/main/game3.png?raw=true))
+!([images/optimal_moves.png](https://github.com/aymanaljamal/-Game-using-Dynamic/blob/main/game4.png?raw=true))
+!([images/optimal_moves.png](https://github.com/aymanaljamal/-Game-using-Dynamic/blob/main/game5.png?raw=true))
+
